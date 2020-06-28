@@ -26,26 +26,39 @@
 <body>
 
 <header>
-    <nav class="navbar fixed-top navbar-dark navbar-color">
-        <a class="navbar-brand" href="#">Fixed top</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-color">
+        <a class="navbar-brand navbar-title" href="#">Dra. ****** *******</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="nav-item nav-link navbar-page-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link navbar-page-link" href="#">Dra. ****** ******</a>
+            <a class="nav-item nav-link navbar-page-link" href="#">Cirugia Plastica</a>
+            <a class="nav-item nav-link navbar-page-link" href="#">Antes y Despues</a>
+            <a class="nav-item nav-link navbar-page-link" href="#">Cirugia Estetica</a>
+            <a class="nav-item nav-link navbar-page-link" href="#">Contacto</a>
+        </div>
     </nav>
 </header>
 
 <main>
     <div class="container-fluid bgimage">
-        <div class="container-fluid row row-cols-md-2 upper-section">
+        <div class="container-fluid row row-cols-md-2 upper-section" id="upper-section">
             <div class="text-section d-none d-md-block">
                 <h1 class="header-text">Dra. ****** ** ******</h1>
-                <h3 class="header-paragraph">Cirugía plastica estética y reparadora</h3>
+                <h3 class="header-paragraph">Cirugía plástica estética y reparadora</h3>
             </div>
             <div class="form-section .col-sm-12">
                 <form>
                     <input class="form-control form-input" type="text" name="clientName" placeholder="Tu nombre">
                     <input class="form-control form-input" type="email" name="clientEmail" placeholder="Tu email">
-                    <input class="form-control form-input" type="tel" name="clientTelNumber" placeholder="Tu telefono">
-                    <textarea class="form-control form-input" type="text" name="clientMessage" placeholder="Tu mensaje"
-                              rows="3"></textarea>
-                    <button type="button" class="btn btn-primary">Enviar</button>
+                    <input class="form-control form-input" type="tel" name="clientTelNumber" placeholder="Tu teléfono">
+                    <textarea class="form-control form-input" type="text" name="clientMessage"
+                              placeholder="Escribe tu mensaje..." rows="3"></textarea>
+                    <button name="cancel" type="button" class="btn btn-dark cancel-button">Cancelar</button>
+                    <button name="submit" type="button" class="btn btn-primary submit-button">Enviar</button>
                 </form>
             </div>
         </div>
