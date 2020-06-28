@@ -1,0 +1,41 @@
+.navbar-color {
+    background-color: rgba(10, 10, 10, 0.3)!important;
+    height: 90px;
+}
+
+.bgimage {
+    background-image: url("images/plasticSurgeryBackground.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    height: 100vh;
+}
+
+.upper-section {
+    margin: 40vh 0 0 0;
+}
+
+.text-section {
+    width: 100vh;
+}
+
+.header-text {
+    margin-left: 8%;
+    font-size: 3.5rem;
+    color: #1d1b38;
+    font-family: Lobster, cursive;
+}
+
+.header-paragraph {
+    margin-left: 11%;
+    color: #1d1b38;
+}
+
+.form-section {
+    width: 100vw;
+}
+
+.form-input {
+    margin-bottom: 6px;
+    width: 100%;
+}
