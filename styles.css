@@ -12,6 +12,7 @@
 .navbar-page-link {
     font-size: 20px;
     color: #f6bed6;
+    display: inline-block;
 }
 
 .navbar-page-link:hover {
@@ -20,14 +21,15 @@
 
 .bgimage {
     background-image: url("images/plasticSurgeryBackground.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
-    position: fixed;
+    background-size: cover;
     height: 100vh;
+    margin: auto auto;
 }
 
 .upper-section {
-    margin: 40vh 0 0 0;
+    padding: 40vh 0 0 0;
 }
 
 .text-section {
