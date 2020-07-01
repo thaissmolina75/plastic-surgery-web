@@ -21,6 +21,8 @@
     color: #e79cc2;
 }
 
+/* LANDING PAGE SETTINGS */
+
 /* UPPER SECTION SETTINGS */
 
 .upper-section {
@@ -31,7 +33,7 @@
 /* UPPER SECTION BACKGROUND IMAGE */
 
 .bgimage {
-    background-image: url("images/plasticSurgeryBackground.jpg");
+    background-image: url("../images/plasticSurgeryBackground.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -220,4 +222,57 @@
 .contactText {
     float: left;
     display: inline-block;
+}
+
+/* ABOUT PAGE SETTINGS */
+
+/* ABOUT SECTION */
+
+.aboutSection {
+    padding: 15vh 0 0 0;
+    margin: 0 !important;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f6bed6;
+}
+
+/* ABOUT SECTION IMAGE */
+
+.aboutSectionImage {
+    background-color: #f6bed6;
+}
+
+.aboutSectionPhoto {
+    width: 75%;
+    margin: auto auto;
+}
+
+/* ABOUT SECTION TEXT */
+
+@media (min-width: 1600px) {
+    .aboutSectionText {
+        background-color: #f6bed6;
+    }
+    .aboutSectionHeader {
+        height: 10%;
+    }
+    .aboutSectionDescription {
+        height: 60vh;
+        font-size: 1.5rem;
+    }
+}
+
+.aboutSectionText {
+    background-color: #f6bed6;
+}
+
+.aboutSectionHeader {
+    font-family: Lobster, cursive;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutSectionDescription {
+    margin: auto auto;
+    width: 75%;
 }

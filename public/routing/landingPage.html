@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 
@@ -38,21 +38,20 @@
         <!-- NAVBAR TITLE -->
 
         <a class="navbar-brand navbar-title">Dra. ****** *******</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
             <!-- NAVBAR LINKS -->
 
-            <a class="nav-item nav-link navbar-page-link" href="landingPage.html">Inicio<span
-                    class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link navbar-page-link" href="#">Dra. ****** ******</a>
+            <a class="nav-item nav-link navbar-page-link" href="/landingPage.html">Inicio</a>
+            <a class="nav-item nav-link navbar-page-link" href="/aboutPage.html">Dra. ****** ******</a>
             <a class="nav-item nav-link navbar-page-link" href="#">Cirugía Plástica</a>
             <a class="nav-item nav-link navbar-page-link" href="#">Antes y Despues</a>
             <a class="nav-item nav-link navbar-page-link" href="#">Medicina Estética</a>
-            <a class="nav-item nav-link navbar-page-link" href="#">Contacto</a>
+            <a class="nav-item nav-link navbar-page-link" href="/landingPage.html/#contact-section">Contacto</a>
 
         </div>
     </nav>
@@ -99,7 +98,8 @@
             <!-- FIRST MIDDLE SECTION IMAGE -->
 
             <div class="col-xs-12 col-lg-6 m-0 p-0">
-                <img class="img-fluid firstSectionPhoto" src="images/aestheticMedicine.jpg" alt="Medicina Estética">
+                <img class="img-fluid firstSectionPhoto" src="../images/aestheticMedicine.jpg"
+                     alt="Medicina Estética">
             </div>
 
             <!-- FIRST MIDDLE SECTION TEXT -->
@@ -136,7 +136,8 @@
             <!-- SECOND MIDDLE SECTION PHOTO -->
 
             <div class="col-xs-12 col-lg-6 m-0 p-0">
-                <img class="img-fluid secondSectionPhoto" src="images/plasticSurgery.jpg" alt="Cirugía Plástica">
+                <img class="img-fluid secondSectionPhoto" src="../images/plasticSurgery.jpg"
+                     alt="Cirugía Plástica">
             </div>
 
             <!-- SECOND MIDDLE SECTION TEXT -->
@@ -150,28 +151,39 @@
             </div>
         </div>
     </div>
+
+    <!-- THIRD SECTION -->
+
     <div class="container-fluid">
         <div class="row thirdSection" id="third-section">
+
+            <!-- THIRD SECTION HEADER -->
+
             <h1 class="thirdSectionHeader">Cirugía Plástica</h1>
+
+            <!-- THIRD SECTION CARDS -->
+
             <div class="card-deck">
                 <div class="card col-xs-12 col-md-4 thirdSectionCard">
-                    <img class="card-img-top" src="images/plasticSurgeryFacial.jpg"
+                    <img class="card-img-top" src="../images/plasticSurgeryFacial.jpg"
                          alt="Cirugía Plástica Facial">
                     <div class="card-body">
                         <h5 class="card-title">Facial</h5>
                         <a href="#" class="btn btn-success">Más información</a>
                     </div>
                 </div>
+
                 <div class="card col-xs-12 col-md-4 thirdSectionCard">
-                    <img class="card-img-top" src="images/plasticSurgeryBody.jpg"
+                    <img class="card-img-top" src="../images/plasticSurgeryBody.jpg"
                          alt="Cirugía Plástica Corporal">
                     <div class="card-body">
                         <h5 class="card-title">Corporal</h5>
                         <a href="#" class="btn btn-success">Más información</a>
                     </div>
                 </div>
+
                 <div class="card col-xs-12 col-md-4 thirdSectionCard">
-                    <img class="card-img-top" src="images/plasticSurgeryReconstruction.jpg"
+                    <img class="card-img-top" src="../images/plasticSurgeryReconstruction.jpg"
                          alt="Cirugía Plástica Reconstructiva">
                     <div class="card-body">
                         <h5 class="card-title">Reconstructiva</h5>
@@ -179,33 +191,48 @@
                     </div>
                 </div>
             </div>
+
+            <!-- CONTACT SECTION -->
+
             <div class="container-fluid m-0 p-0">
-                <div class="row contactSection">
+                <div class="row contactSection" id="contact-section">
+
+                    <!-- CONTACT SECTION HEADER -->
+
                     <h1 class="contactSectionHeader">Contacto</h1>
+
+                    <!-- WAYS OF CONTACT -->
+
                     <div class="col-xs-2 wayToContact">
                         <i class="fab fa-whatsapp contactIcon"></i>
                         <h5 class="contactText">Whatsapp: +54 3548 569655</h5>
                     </div>
+
                     <div class="col-xs-2 wayToContact">
                         <i class="fas fa-phone-alt contactIcon"></i>
                         <h5 class="contactText">Teléfono: +54 3548 569655</h5>
                     </div>
+
                     <div class="col-xs-2 wayToContact">
                         <i class="fas fa-envelope contactIcon"></i>
                         <h5 class="contactText">Email: contacto@loremipsum.com</h5>
                     </div>
+
                     <div class="col-xs-2 wayToContact">
                         <i class="fas fa-map-marker-alt contactIcon"></i>
                         <h5 class="contactText">Consultorio: Córdoba</h5>
                     </div>
+
                     <div class="col-xs-2 wayToContact">
                         <i class="fab fa-instagram contactIcon"></i>
                         <h5 class="contactText">Instagram</h5>
                     </div>
+
                     <div class="col-xs-2 wayToContact">
                         <i class="fab fa-facebook contactIcon"></i>
                         <h5 class="contactText">Facebook</h5>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -227,6 +254,7 @@
 
 <!--EXPRESS SCRIPT-->
 
+<script src="../../index.js"></script>
 
 </body>
 </html>
