@@ -1,7 +1,7 @@
 /* NAVBAR SETTINGS */
 
 .navbar-color {
-    background-color: rgba(10, 10, 10, 0.3)!important;
+    background-color: rgba(10, 10, 10, 0.3) !important;
     min-height: 90px;
 }
 
@@ -134,4 +134,90 @@
 
 .secondSectionHeader {
     padding-bottom: 40px;
+}
+
+/* THIRD SECTION */
+
+.thirdSection {
+    margin: 20px 0 20px 0;
+    height: 10vh;
+    text-align: center;
+}
+
+/* THIRD SECTION HEADER */
+
+.thirdSectionHeader {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* THIRD SECTION CARDS */
+
+.thirdSectionCard {
+    border: 0;
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        width: 100%;
+        height: 20vw;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .card-img-top {
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+}
+
+/* CONTACT SECTION */
+
+.contactSection {
+    height: 50vh;
+    text-align: center;
+    background-color: #e79cc2;
+}
+
+/* CONTACT SECTION HEADER */
+
+.contactSectionHeader {
+    width: 100%;
+}
+
+/* CONTACT SECTION WAY OF CONTACT */
+
+.wayToContact {
+    width: 100vw;
+}
+
+/* CONTACT SECTION ICON */
+
+@media (max-width: 767.98px) {
+    .contactIcon {
+        float: left;
+        margin-left: 10% !important;
+        display: inline-block;
+        font-size: 1.75rem;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+.contactIcon {
+    float: left;
+    margin-left: 40%;
+    display: inline-block;
+    font-size: 1.75rem;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+/* CONTACT SECTION TEXT */
+
+.contactText {
+    float: left;
+    display: inline-block;
 }
