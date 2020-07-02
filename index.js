@@ -17,6 +17,6 @@ app.get("/aboutPage.html", function (req,res) {
     res.sendFile(__dirname + "/public/routing/aboutPage.html")
 })
 
-app.listen(3000, function (req,res) {
+app.listen(PORT, function (req,res) {
     console.log("Server is listening on port 3000")
 })
