@@ -65,32 +65,21 @@
 .firstSection {
     height: 50%;
     background-color: #f6bed6;
-}
-
-/* FIRST MIDDLE SECTION PHOTO */
-
-.firstSectionPhoto {
-    max-height: 50vh;
-    width: 100%;
+    text-align: center;
 }
 
 /* FIRST MIDDLE SECTION TEXT */
 
 .firstSectionText {
     margin: auto auto;
-    text-align: center;
+    width: 75%;
 }
 
-/* FIRST MIDDLE SECTION LISTS */
+/* FIRST MIDDLE SECTION COLLAPSE */
 
-.firstList {
-    margin: auto auto;
-    display: inline-block;
-}
-
-.secondList {
-    margin: auto auto;
-    display: inline-block;
+.mammoplastyProcedureText {
+    background-color: #e79cc2;
+    margin-bottom: 20px;
 }
 
 /* SECOND MIDDLE SECTION */
@@ -101,42 +90,62 @@
     text-align: center;
 }
 
-/* SECOND MIDDLE SECTION PHOTO */
-
-.secondSectionPhoto {
-    height: 50vh;
-    width: 100%;
-}
-
 /* SECOND MIDDLE SECTION TEXT */
 
 .secondSectionText {
     margin: auto auto;
     text-align: center;
+    width: 75%;
 }
 
-.secondSectionHeader {
-    padding-bottom: 40px;
+/* SECOND MIDDLE SECTION COLLAPSE */
+
+.mastopexyProcedureText {
+    background-color: #ABD295;
+    margin-bottom: 20px;
 }
 
-/* THIRD SECTION */
+/* THIRD MIDDLE SECTION */
 
 .thirdSection {
+    height: 50%;
+    background-color: #98D7E4;
+    text-align: center;
+}
+
+/* THIRD MIDDLE SECTION TEXT */
+
+.thirdSectionText {
+    margin: auto auto;
+    text-align: center;
+    width: 75%;
+}
+
+/* THIRD MIDDLE SECTION COLLAPSE */
+
+.reductionMammoplastyProcedureText {
+    background-color: #7CBBC7;
+    margin-bottom: 20px;
+}
+
+/* FOURTH SECTION */
+
+.fourthSection {
     margin: 20px 0 20px 0;
     height: 10vh;
     text-align: center;
 }
 
-/* THIRD SECTION HEADER */
+/* FOURTH SECTION HEADER */
 
-.thirdSectionHeader {
+.fourthSectionHeader {
     width: 100%;
     margin-bottom: 20px;
 }
 
-/* THIRD SECTION CARDS */
+/* FOURTH SECTION CARDS */
 
-.thirdSectionCard {
+.fourthSectionCard {
     border: 0;
 }
 
@@ -159,8 +168,7 @@
 /* CONTACT SECTION */
 
 .contactSection {
-    height: 50vh;
-    text-align: center;
+    height: 125px;
     background-color: #e79cc2;
 }
 
@@ -173,25 +181,13 @@
 /* CONTACT SECTION WAY OF CONTACT */
 
 .wayToContact {
-    width: 100vw;
+    margin: 0 auto;
 }
 
 /* CONTACT SECTION ICON */
 
-@media (max-width: 767.98px) {
-    .contactIcon {
-        float: left;
-        margin-left: 10% !important;
-        display: inline-block;
-        font-size: 1.75rem;
-        padding-right: 10px;
-        padding-bottom: 5px;
-    }
-}
-
 .contactIcon {
     float: left;
-    margin-left: 40%;
     display: inline-block;
     font-size: 1.75rem;
     padding-right: 10px;
@@ -205,7 +201,7 @@
     padding: 0;
     border: 0;
     background-color: #e79cc2;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #d6efc7;
     font-weight: bold;
     display: inline-block;
@@ -278,3 +274,6 @@
     margin: auto auto;
     width: 75%;
 }
+
+/* MAMMOPLASTY PAGE SETTINGS */
+
