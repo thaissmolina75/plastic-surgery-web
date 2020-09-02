@@ -14,5 +14,5 @@ app.get("/landingPage.html", function (req,res) {
 })
 
 app.listen(PORT, function (req,res) {
-    console.log("Server is listening on port " + PORT)
+    console.log("Server is listening on port 3000")
 })

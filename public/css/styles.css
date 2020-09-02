@@ -7,14 +7,15 @@
 
 .navbar-title {
     font-size: 35px;
-    color: #e79cc2 !important;
+    color: #C8CAC9 !important;
     font-family: Lobster, cursive;
 }
 
 .navbar-page-link {
-    font-size: 20px;
-    color: #f6bed6;
+    font-size: 18px;
+    color: #ec0da4;
     display: inline-block;
+    font-family: Montserrat, sans-serif;
 }
 
 .navbar-page-link:hover {
@@ -51,21 +52,27 @@
 .header-text {
     width: 100%;
     font-size: 4.5rem;
-    color: #1d1b38;
+    color: #ec0da4;
     font-family: Lobster, cursive;
 }
 
 .header-paragraph {
     width: 100%;
-    color: #1d1b38;
+    color: #ec0da4;
 }
 
 /* FIRST MIDDLE SECTION */
 
 .firstSection {
     height: 50%;
-    background-color: #f6bed6;
+    background-color: #F269C4;
     text-align: center;
+}
+
+/* FIRST MIDDLE SECTION HEADER */
+
+.firstSectionHeader {
+    font-family: Lobster, cursive;
 }
 
 /* FIRST MIDDLE SECTION TEXT */
@@ -73,12 +80,13 @@
 .firstSectionText {
     margin: auto auto;
     width: 75%;
+    font-family: Montserrat, sans-serif;
 }
 
 /* FIRST MIDDLE SECTION COLLAPSE */
 
 .mammoplastyProcedureText {
-    background-color: #e79cc2;
+    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
@@ -86,8 +94,14 @@
 
 .secondSection {
     height: 50%;
-    background-color: #d6efc7;
+    background-color: #C8CAC9;
     text-align: center;
+}
+
+/* SECOND MIDDLE SECTION HEADER */
+
+.secondSectionHeader {
+    font-family: Lobster, cursive;
 }
 
 /* SECOND MIDDLE SECTION TEXT */
@@ -96,12 +110,13 @@
     margin: auto auto;
     text-align: center;
     width: 75%;
+    font-family: Montserrat, sans-serif;
 }
 
 /* SECOND MIDDLE SECTION COLLAPSE */
 
 .mastopexyProcedureText {
-    background-color: #ABD295;
+    background-color: #F269C4;
     margin-bottom: 20px;
 }
 
@@ -109,8 +124,14 @@
 
 .thirdSection {
     height: 50%;
-    background-color: #98D7E4;
+    background-color: #F269C4;
     text-align: center;
+}
+
+/* THIRD MIDDLE SECTION HEADER */
+
+.thirdSectionHeader {
+    font-family: Lobster, cursive;
 }
 
 /* THIRD MIDDLE SECTION TEXT */
@@ -119,12 +140,13 @@
     margin: auto auto;
     text-align: center;
     width: 75%;
+    font-family: Montserrat, sans-serif;
 }
 
 /* THIRD MIDDLE SECTION COLLAPSE */
 
 .reductionMammoplastyProcedureText {
-    background-color: #7CBBC7;
+    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
@@ -141,12 +163,14 @@
 .fourthSectionHeader {
     width: 100%;
     margin-bottom: 20px;
+    font-family: Lobster, cursive;
 }
 
 /* FOURTH SECTION CARDS */
 
 .fourthSectionCard {
     border: 0;
+    font-family: Montserrat, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -170,21 +194,21 @@
 /* FOURTH SECTION FIRST COLLAPSE */
 
 .rhinoplastyProcedureText {
-    background-color: #DCDADA;
+    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
 /* FOURTH SECTION SECOND COLLAPSE */
 
 .otoplastyProcedureText {
-    background-color: #DCDADA;
+    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
 /* FOURTH SECTION THIRD COLLAPSE */
 
 .lobuloplastyProcedureText {
-    background-color: #DCDADA;
+    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
@@ -192,13 +216,15 @@
 
 .contactSection {
     height: 125px;
-    background-color: #e79cc2;
+    background-color: #F269C4;
+    font-family: Montserrat, sans-serif;
 }
 
 /* CONTACT SECTION HEADER */
 
 .contactSectionHeader {
     width: 100%;
+    font-family: Lobster, cursive;
 }
 
 /* CONTACT SECTION WAY OF CONTACT */
@@ -223,7 +249,7 @@
     float: left;
     padding: 0;
     border: 0;
-    background-color: #e79cc2;
+    background-color: #F269C4;
     font-size: 1rem;
     color: #d6efc7;
     font-weight: bold;
@@ -231,7 +257,7 @@
 }
 
 .contactText:hover {
-    background-color: #e79cc2;
+    background-color: #F269C4;
 }
 
 /* CONTACT SECTION LINKS */
@@ -244,59 +270,3 @@
     color: #1d1b38;
     text-decoration: none;
 }
-
-/* ABOUT PAGE SETTINGS */
-
-/* ABOUT SECTION */
-
-.aboutSection {
-    padding: 15vh 0 0 0;
-    margin: 0 !important;
-    height: 100vh;
-    width: 100vw;
-    background-color: #f6bed6;
-}
-
-/* ABOUT SECTION IMAGE */
-
-.aboutSectionImage {
-    background-color: #f6bed6;
-}
-
-.aboutSectionPhoto {
-    width: 75%;
-    margin: auto auto;
-}
-
-/* ABOUT SECTION TEXT */
-
-@media (min-width: 1600px) {
-    .aboutSectionText {
-        background-color: #f6bed6;
-    }
-    .aboutSectionHeader {
-        height: 10%;
-    }
-    .aboutSectionDescription {
-        height: 60vh;
-        font-size: 1.5rem;
-    }
-}
-
-.aboutSectionText {
-    background-color: #f6bed6;
-}
-
-.aboutSectionHeader {
-    font-family: Lobster, cursive;
-    width: 100%;
-    text-align: center;
-}
-
-.aboutSectionDescription {
-    margin: auto auto;
-    width: 75%;
-}
-
-/* MAMMOPLASTY PAGE SETTINGS */
-
