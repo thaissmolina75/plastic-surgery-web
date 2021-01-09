@@ -1,3 +1,51 @@
+
+.primary-color-font{
+    color: #f6b0ce !important;
+}
+
+.primary-color-background {
+    background-color: #f6b0ce;
+}
+
+.secondary-color-font{
+    color: #abf7ef !important;
+}
+
+.secondary-color-background {
+    background-color: #abf7ef;
+}
+
+.tertiary-color-font{
+    color: #f6d6e0 !important;
+}
+
+.tertiary-color-background {
+    background-color: #f6d6e0;
+}
+
+.quaternary-color-font{
+    color: #f0f7f6 !important;
+}
+
+.quaternary-color-background {
+    background-color: #f0f7f6;
+}
+
+.quinary-color-font{
+    color: #6ddef1 !important;
+}
+
+.quinary-color-background {
+    background-color: #6ddef1;
+}
+
+
+
+
+
+
+
+
 /* NAVBAR SETTINGS */
 
 .navbar-color {
@@ -7,19 +55,17 @@
 
 .navbar-title {
     font-size: 35px;
-    color: #C8CAC9 !important;
     font-family: Lobster, cursive;
 }
 
 .navbar-page-link {
     font-size: 18px;
-    color: #ec0da4;
     display: inline-block;
     font-family: Montserrat, sans-serif;
 }
 
 .navbar-page-link:hover {
-    color: #e79cc2;
+    color: #6ddef1;
 }
 
 /* LANDING PAGE SETTINGS */
@@ -52,20 +98,18 @@
 .header-text {
     width: 100%;
     font-size: 4.5rem;
-    color: #ec0da4;
     font-family: Lobster, cursive;
 }
 
 .header-paragraph {
     width: 100%;
-    color: #ec0da4;
 }
 
 /* FIRST MIDDLE SECTION */
 
-.firstSection {
+.carrousel-item {
     height: 50%;
-    background-color: #E279BF;
+    min-height: 525px;
     text-align: center;
 }
 
@@ -86,16 +130,7 @@
 /* FIRST MIDDLE SECTION COLLAPSE */
 
 .mammoplastyProcedureText {
-    background-color: #C8CAC9;
     margin-bottom: 20px;
-}
-
-/* SECOND MIDDLE SECTION */
-
-.secondSection {
-    height: 50%;
-    background-color: #C8CAC9;
-    text-align: center;
 }
 
 /* SECOND MIDDLE SECTION HEADER */
@@ -116,16 +151,7 @@
 /* SECOND MIDDLE SECTION COLLAPSE */
 
 .mastopexyProcedureText {
-    background-color: #E279BF;
     margin-bottom: 20px;
-}
-
-/* THIRD MIDDLE SECTION */
-
-.thirdSection {
-    height: 50%;
-    background-color: #E279BF;
-    text-align: center;
 }
 
 /* THIRD MIDDLE SECTION HEADER */
@@ -146,7 +172,6 @@
 /* THIRD MIDDLE SECTION COLLAPSE */
 
 .reductionMammoplastyProcedureText {
-    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
@@ -172,6 +197,9 @@
     border: 0;
     font-family: Montserrat, sans-serif;
 }
+.center-align{
+    align-content: center;
+}
 
 @media (min-width: 992px) {
     .card-img-top {
@@ -194,79 +222,52 @@
 /* FOURTH SECTION FIRST COLLAPSE */
 
 .rhinoplastyProcedureText {
-    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
 /* FOURTH SECTION SECOND COLLAPSE */
 
 .otoplastyProcedureText {
-    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
 /* FOURTH SECTION THIRD COLLAPSE */
 
 .lobuloplastyProcedureText {
-    background-color: #C8CAC9;
     margin-bottom: 20px;
 }
 
-/* CONTACT SECTION */
-
-.contactSection {
-    height: 125px;
-    background-color: #F269C4;
-    font-family: Montserrat, sans-serif;
-}
-
-/* CONTACT SECTION HEADER */
-
-.contactSectionHeader {
-    width: 100%;
-    font-family: Lobster, cursive;
-}
-
-/* CONTACT SECTION WAY OF CONTACT */
-
-.wayToContact {
-    margin: 0 auto;
-}
 
 /* CONTACT SECTION ICON */
 
-.contactIcon {
-    float: left;
-    display: inline-block;
-    font-size: 1.75rem;
-    padding-right: 10px;
-    padding-bottom: 5px;
+.wapp-btn {
+    position: fixed;
+    display: block;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 2000;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    animation: mover 0.5s alternate infinite;
+    animation-play-state: runing;
 }
-
-/* CONTACT SECTION TEXT */
-
-.contactText {
-    float: left;
-    padding: 0;
-    border: 0;
-    background-color: #F269C4;
-    font-size: 1rem;
-    color: #d6efc7;
-    font-weight: bold;
-    display: inline-block;
+.wapp-btn:hover {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    transform: scale(1.2);
+    opacity: 0.8;
 }
-
-.contactText:hover {
-    background-color: #F269C4;
-}
-
-/* CONTACT SECTION LINKS */
-
-.contactLink {
-    color: #d6efc7;
-}
-
-.contactLink:hover {
-    color: #1d1b38;
-    text-decoration: none;
+.wapp-btn:focus {
+    color: #fff;
+    outline: 0;
 }

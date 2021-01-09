@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "localDeploy": "set PORT=8000&& node server.js"
   },
   "keywords": [],
   "author": "conrad-remon",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "sass": "^1.32.2"
   },
   "engines": {
     "node": "12.16.x"
